@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Form, Field, ErrorMessage } from 'formik';
+import { Field, ErrorMessage } from 'formik';
 
 function CategoryFields(props) {
     const { title, warning, formName, formStyle, formId, formType, rows, lineHeight, onBlurWarning, onBlurFunction, value } = props;

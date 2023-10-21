@@ -5,22 +5,19 @@ import {
   Link,
   Switch,
 } from "react-router-dom";
-import React, { useEffect, useState, createContext } from "react";
-import Navbar from "./components/Navbar/Navbar";
-import MainUpdate from "./components/Main/Main";
-import RightNav from "./components/RightNav/RightNav";
+import React, { useState } from "react";
 
 import "./App.css";
 import UserPage from "./pages/UserPage";
 import UserProfile from "./pages/UserProfile";
-import AddSubcruddit from "./pages/AddSubcruddit"
+// import AddSubcruddit from "./pages/AddSubcruddit"
 import Home from './pages/Home'
 import Subcruddit from './pages/Subcruddit'
 import TextPost from "./pages/TextPost";
 import ImgPost from "./pages/ImgPost";
 import SubcrudditPost from "./pages/SubcrudditPost";
 import SinglePost from "./pages/SinglePost";
-import PostComments from "./components/Post/PostComments"
+// import PostComments from "./components/Post/PostComments"
 import CommentPlay from "./components/Post/CommentPlay";
 
 

@@ -1,8 +1,8 @@
 import * as Yup from 'yup';
 import {Formik, Form, Field, ErrorMessage } from 'formik';
-import axios from 'axios';
-import Comments from './Comments';
-import PostComments from './PostComments';
+// import axios from 'axios';
+// import Comments from './Comments';
+// import PostComments from './PostComments';
 
 function EditComment(props) {
     const {comment, value, setReply, order, setNewComment, setNestedReply, setCommentReplies, commentReplies, setEdit, setCommentContent} = props

@@ -1,6 +1,6 @@
 import React, { useState, useContext, useEffect } from 'react';
 import axios from 'axios';
-import { Link, useLocation } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 import { ContentTypeContext } from '../Main/Main';
 import PostVote from './PostVote';
 import txtThumb from '../../assets/comment-svgrepo-com.svg'

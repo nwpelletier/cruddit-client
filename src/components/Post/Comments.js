@@ -1,11 +1,11 @@
-import { useEffect, useState, useContext } from "react";
+import { useEffect, useState } from "react";
 import PostComments from "./PostComments";
 import CreateComment from "./CreateComment";
 import EditComment from "./EditComment";
 import { format } from "date-fns";
 import CommentVotes from "../Comments/CommentVotes";
 import axios from "axios";
-import Delete from "../Modal/Delete";
+// import Delete from "../Modal/Delete";
 import { BASE_API_URL } from "../../utils/constant";
 
 

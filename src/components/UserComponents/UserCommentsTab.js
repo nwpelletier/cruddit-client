@@ -2,7 +2,7 @@ import axios from "axios";
 import arrowUpImage from "../../assets/arrow-square-up-svgrepo-com.svg";
 import arrowDownImage from "../../assets/arrow-square-down-svgrepo-com.svg";
 import React, { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+// import { useParams } from "react-router-dom";
 import { format } from "date-fns";
 import { BASE_API_URL } from "../../utils/constant";
 

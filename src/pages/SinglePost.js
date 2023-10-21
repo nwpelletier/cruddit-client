@@ -1,7 +1,7 @@
 import Navbar from "../components/Navbar/Navbar";
 import Main from "../components/Main/Main";
 import RightNav from "../components/RightNav/RightNav";
-import { SubcrudditContext } from "../App";
+// import { SubcrudditContext } from "../App";
 import { useParams } from "react-router-dom";
 
 
