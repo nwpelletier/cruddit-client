@@ -1,0 +1,1 @@
+export const BASE_API_URL = 'https://cruddit-server-56ddb14c5352.herokuapp.com/';
